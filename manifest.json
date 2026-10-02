@@ -1,0 +1,15 @@
+{
+    "display_name":  "InterLayerWorld Runtime",
+    "loading_order":  100,
+    "requires":  [
+
+                 ],
+    "optional":  [
+
+                 ],
+    "js":  "index.js",
+    "author":  "InterLayerWorld Project",
+    "version":  "0.4.0",
+    "homePage":  "https://github.com/ykny12058/ilw-native-owner",
+    "auto_update":  false
+}

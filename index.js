@@ -1,0 +1,1 @@
+console.info('[InterLayerWorld Runtime] Extension package loaded — v0.4.0');

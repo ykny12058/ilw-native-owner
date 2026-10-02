@@ -1,0 +1,1547 @@
+{
+  "format": "ilw.verified-mvu-loader/1",
+  "manifestVersion": "e5c2.1",
+  "identity": {
+    "patch": "owner-e45.5",
+    "abi": "mvu.final-message-state/3-atomic-writer",
+    "sourceRevision": "551f8bd5b5680dd3ae8b37332daa49393382bd2d",
+    "officialArtifactCommit": "183d8ade3b9a3369e824a55cb13b4ddf91aada50",
+    "path": "MagVarUpdate-owner-e45.5.js",
+    "bytes": 665064,
+    "sha256": "2D2E87C474C6B71D603E5E7FA603DB7364426F2CFAC8757F841A8628B52843FB",
+    "imports": [
+      {
+        "start": 93,
+        "end": 153,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@google/genai@2.21.0/+esm",
+        "dependency": 0
+      },
+      {
+        "start": 287,
+        "end": 355,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/+esm",
+        "dependency": 1
+      },
+      {
+        "start": 390,
+        "end": 484,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/ant-ling.models/+esm",
+        "dependency": 2
+      },
+      {
+        "start": 520,
+        "end": 615,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/anthropic.models/+esm",
+        "dependency": 3
+      },
+      {
+        "start": 649,
+        "end": 742,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/baseten.models/+esm",
+        "dependency": 4
+      },
+      {
+        "start": 777,
+        "end": 871,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/cerebras.models/+esm",
+        "dependency": 5
+      },
+      {
+        "start": 906,
+        "end": 1000,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/deepseek.models/+esm",
+        "dependency": 6
+      },
+      {
+        "start": 1036,
+        "end": 1131,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/fireworks.models/+esm",
+        "dependency": 7
+      },
+      {
+        "start": 1172,
+        "end": 1272,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/github-copilot.models/+esm",
+        "dependency": 8
+      },
+      {
+        "start": 1305,
+        "end": 1397,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/google.models/+esm",
+        "dependency": 9
+      },
+      {
+        "start": 1428,
+        "end": 1518,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/groq.models/+esm",
+        "dependency": 10
+      },
+      {
+        "start": 1556,
+        "end": 1653,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/huggingface.models/+esm",
+        "dependency": 11
+      },
+      {
+        "start": 1691,
+        "end": 1788,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/kimi-coding.models/+esm",
+        "dependency": 12
+      },
+      {
+        "start": 1822,
+        "end": 1915,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/minimax.models/+esm",
+        "dependency": 13
+      },
+      {
+        "start": 1952,
+        "end": 2048,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/minimax-cn.models/+esm",
+        "dependency": 14
+      },
+      {
+        "start": 2082,
+        "end": 2175,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/mistral.models/+esm",
+        "dependency": 15
+      },
+      {
+        "start": 2212,
+        "end": 2308,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/moonshotai.models/+esm",
+        "dependency": 16
+      },
+      {
+        "start": 2348,
+        "end": 2447,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/moonshotai-cn.models/+esm",
+        "dependency": 17
+      },
+      {
+        "start": 2480,
+        "end": 2572,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/nvidia.models/+esm",
+        "dependency": 18
+      },
+      {
+        "start": 2605,
+        "end": 2697,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/openai.models/+esm",
+        "dependency": 19
+      },
+      {
+        "start": 2736,
+        "end": 2834,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/openai-codex.models/+esm",
+        "dependency": 20
+      },
+      {
+        "start": 2869,
+        "end": 2963,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/opencode.models/+esm",
+        "dependency": 21
+      },
+      {
+        "start": 3001,
+        "end": 3098,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/opencode-go.models/+esm",
+        "dependency": 22
+      },
+      {
+        "start": 3135,
+        "end": 3231,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/openrouter.models/+esm",
+        "dependency": 23
+      },
+      {
+        "start": 3273,
+        "end": 3374,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/qwen-token-plan.models/+esm",
+        "dependency": 24
+      },
+      {
+        "start": 3419,
+        "end": 3523,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/qwen-token-plan-cn.models/+esm",
+        "dependency": 25
+      },
+      {
+        "start": 3576,
+        "end": 3688,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/qwen-token-plan-individual.models/+esm",
+        "dependency": 26
+      },
+      {
+        "start": 3723,
+        "end": 3817,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/together.models/+esm",
+        "dependency": 27
+      },
+      {
+        "start": 3861,
+        "end": 3964,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/vercel-ai-gateway.models/+esm",
+        "dependency": 28
+      },
+      {
+        "start": 3994,
+        "end": 4083,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/xai.models/+esm",
+        "dependency": 29
+      },
+      {
+        "start": 4116,
+        "end": 4208,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/xiaomi.models/+esm",
+        "dependency": 30
+      },
+      {
+        "start": 4256,
+        "end": 4363,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/xiaomi-token-plan-ams.models/+esm",
+        "dependency": 31
+      },
+      {
+        "start": 4410,
+        "end": 4516,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/xiaomi-token-plan-cn.models/+esm",
+        "dependency": 32
+      },
+      {
+        "start": 4564,
+        "end": 4671,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/xiaomi-token-plan-sgp.models/+esm",
+        "dependency": 33
+      },
+      {
+        "start": 4701,
+        "end": 4790,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/zai.models/+esm",
+        "dependency": 34
+      },
+      {
+        "start": 4830,
+        "end": 4929,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/zai-coding-cn.models/+esm",
+        "dependency": 35
+      },
+      {
+        "start": 4967,
+        "end": 5061,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/api/openai-responses.lazy/+esm",
+        "dependency": 36
+      },
+      {
+        "start": 5101,
+        "end": 5197,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/api/openai-completions.lazy/+esm",
+        "dependency": 37
+      },
+      {
+        "start": 5237,
+        "end": 5333,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/api/anthropic-messages.lazy/+esm",
+        "dependency": 38
+      },
+      {
+        "start": 5374,
+        "end": 5472,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/api/google-generative-ai.lazy/+esm",
+        "dependency": 39
+      },
+      {
+        "start": 5515,
+        "end": 5614,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/api/mistral-conversations.lazy/+esm",
+        "dependency": 40
+      },
+      {
+        "start": 5657,
+        "end": 5757,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/api/openai-codex-responses.lazy/+esm",
+        "dependency": 41
+      },
+      {
+        "start": 6019,
+        "end": 6105,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/api/google-shared/+esm",
+        "dependency": 42
+      },
+      {
+        "start": 6142,
+        "end": 6229,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/api/simple-options/+esm",
+        "dependency": 43
+      },
+      {
+        "start": 6964,
+        "end": 7022,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@intlify/core-base/+esm",
+        "dependency": 44
+      },
+      {
+        "start": 7290,
+        "end": 7345,
+        "specifier": "https://testingcf.jsdelivr.net/npm/@intlify/shared/+esm",
+        "dependency": 45
+      },
+      {
+        "start": 7376,
+        "end": 7426,
+        "specifier": "https://testingcf.jsdelivr.net/npm/jsonrepair/+esm",
+        "dependency": 46
+      },
+      {
+        "start": 7446,
+        "end": 7502,
+        "specifier": "https://testingcf.jsdelivr.net/npm/compare-versions/+esm",
+        "dependency": 47
+      },
+      {
+        "start": 7522,
+        "end": 7567,
+        "specifier": "https://testingcf.jsdelivr.net/npm/json5/+esm",
+        "dependency": 48
+      },
+      {
+        "start": 7587,
+        "end": 7632,
+        "specifier": "https://testingcf.jsdelivr.net/npm/klona/+esm",
+        "dependency": 49
+      },
+      {
+        "start": 7661,
+        "end": 7717,
+        "specifier": "https://testingcf.jsdelivr.net/npm/perfect-debounce/+esm",
+        "dependency": 50
+      },
+      {
+        "start": 7749,
+        "end": 7797,
+        "specifier": "https://testingcf.jsdelivr.net/npm/hookable/+esm",
+        "dependency": 51
+      },
+      {
+        "start": 7806,
+        "end": 7851,
+        "specifier": "https://testingcf.jsdelivr.net/npm/birpc/+esm",
+        "dependency": 52
+      },
+      {
+        "start": 7871,
+        "end": 7917,
+        "specifier": "https://testingcf.jsdelivr.net/npm/mathjs/+esm",
+        "dependency": 53
+      }
+    ]
+  },
+  "moduleCount": 85,
+  "dependencyFirstOrder": [
+    77,
+    54,
+    0,
+    55,
+    56,
+    57,
+    58,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    78,
+    59,
+    36,
+    60,
+    37,
+    83,
+    84,
+    80,
+    81,
+    82,
+    79,
+    61,
+    38,
+    65,
+    62,
+    39,
+    63,
+    40,
+    64,
+    41,
+    42,
+    43,
+    45,
+    66,
+    44,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    53
+  ],
+  "modules": [
+    {
+      "id": "mvu-dep-000",
+      "path": "deps/00.mjs",
+      "bytes": 372930,
+      "sha256": "4E391D23F2CACAC47835CCC47758CB0EF63C9DA7904D51FF12A6D21E626E54EF",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@google/genai@2.21.0/+esm",
+      "tier": "direct",
+      "imports": [
+        {
+          "start": 278,
+          "end": 301,
+          "specifier": "/npm/p-retry@4.6.2/+esm",
+          "dependency": 54
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-001",
+      "path": "deps/01.mjs",
+      "bytes": 48945,
+      "sha256": "AAF106C29929927A9DCF8B05B5F5710D88D65C8AF9C4B1D1E40F95189869605B",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/+esm",
+      "tier": "direct",
+      "imports": [
+        {
+          "start": 289,
+          "end": 312,
+          "specifier": "/npm/typebox@1.3.7/+esm",
+          "dependency": 55
+        },
+        {
+          "start": 337,
+          "end": 360,
+          "specifier": "/npm/typebox@1.3.7/+esm",
+          "dependency": 55
+        },
+        {
+          "start": 386,
+          "end": 414,
+          "specifier": "/npm/partial-json@0.1.7/+esm",
+          "dependency": 56
+        },
+        {
+          "start": 442,
+          "end": 473,
+          "specifier": "/npm/typebox@1.3.7/compile/+esm",
+          "dependency": 57
+        },
+        {
+          "start": 499,
+          "end": 528,
+          "specifier": "/npm/typebox@1.3.7/value/+esm",
+          "dependency": 58
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-002",
+      "path": "deps/02.mjs",
+      "bytes": 1867,
+      "sha256": "85F9BD749253EB26B546BC3127C0C6C44C31AF5729E14863329EA9E3B8FB404B",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/ant-ling.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-003",
+      "path": "deps/03.mjs",
+      "bytes": 5736,
+      "sha256": "A2E14751F67703F04ABE9AC4AD233E16797503251B723BCE2E8BEB4882352FC9",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/anthropic.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-004",
+      "path": "deps/04.mjs",
+      "bytes": 13011,
+      "sha256": "37408D9116FF6379244728191BC844A0B531BAE65602E77C1DE2B867A4F1128B",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/baseten.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-005",
+      "path": "deps/05.mjs",
+      "bytes": 1346,
+      "sha256": "27B4058B1313EC7CF975D9DED1D0D5C5E067654F4F236BE918C3D3D4544FD0BA",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/cerebras.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-006",
+      "path": "deps/06.mjs",
+      "bytes": 2053,
+      "sha256": "33308C4EF75345D6F2807FF797FA718E6E2B31E7D729382D46844EACDEEBC59E",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/deepseek.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-007",
+      "path": "deps/07.mjs",
+      "bytes": 10488,
+      "sha256": "30C39DE53B2AB1B43C28BBFFE62EB928C884FBDA816E4CD1E1EC274996F4BE62",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/fireworks.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-008",
+      "path": "deps/08.mjs",
+      "bytes": 16815,
+      "sha256": "111B239658A681EC7D80C03BFD4A41825AF69ACDBDED9C2B3FC93798A19E64B5",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/github-copilot.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-009",
+      "path": "deps/09.mjs",
+      "bytes": 8157,
+      "sha256": "64A30B32C1B22E861CB6E41637A9A5012398F1120CFE828B0E02462056080153",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/google.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-010",
+      "path": "deps/10.mjs",
+      "bytes": 2929,
+      "sha256": "D28A3E140D28E9CA3C9A377198D31991A9D260E5E4EB0EE59EC77E8C1D93EF23",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/groq.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-011",
+      "path": "deps/11.mjs",
+      "bytes": 25417,
+      "sha256": "8547BD86BF6DB674A6D2374A49D408495C343298D3F55F3289FF7B5AF6512D18",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/huggingface.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-012",
+      "path": "deps/12.mjs",
+      "bytes": 1983,
+      "sha256": "CA8CC53E57CAD0D758F6567245B38C4CBF6DF55E5E6CF4F54329F1081E0E3824",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/kimi-coding.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-013",
+      "path": "deps/13.mjs",
+      "bytes": 1346,
+      "sha256": "B0FBFA819B7042ECE7A87BBD0FB8147BC25040DF1D39F1631F15E2576B0C738E",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/minimax.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-014",
+      "path": "deps/14.mjs",
+      "bytes": 1370,
+      "sha256": "D38417A974D6437F024842354712774C7FE238E0B033F701559C09255DD16BA5",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/minimax-cn.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-015",
+      "path": "deps/15.mjs",
+      "bytes": 9232,
+      "sha256": "859F8EF86FFDA353308951C8CDF7F38250B70549225F56FD6A4145BF3D555B31",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/mistral.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-016",
+      "path": "deps/16.mjs",
+      "bytes": 5015,
+      "sha256": "DE448381AFD928BEB8BD39CC2A2F202F93CD7CE6DC8D87101DC75EC07177AD2B",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/moonshotai.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-017",
+      "path": "deps/17.mjs",
+      "bytes": 5054,
+      "sha256": "6E767A53A5D94F6B59DD7D35A4782B205F654CCC4E0FF792F6E73EBD2FF9BC17",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/moonshotai-cn.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-018",
+      "path": "deps/18.mjs",
+      "bytes": 10767,
+      "sha256": "583E1946CEBEC0B212B5DA2B2B0A04382D9C4B00702F67B7310FF2401ED50375",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/nvidia.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-019",
+      "path": "deps/19.mjs",
+      "bytes": 16192,
+      "sha256": "8EACFD16FAAC329C100E0876EB59F0E8D20314B3D8F048BF79D4359F3D9F5F9D",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/openai.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-020",
+      "path": "deps/20.mjs",
+      "bytes": 4240,
+      "sha256": "D86C3B16EC21896B459A145DFBBF2D5D717B46796092FECC29FD1454D46BC83D",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/openai-codex.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-021",
+      "path": "deps/21.mjs",
+      "bytes": 26795,
+      "sha256": "B4467F94B5964BA32301D4BBA544828FA5518B6978C951AAAFDFAFE6E48BE3AE",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/opencode.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-022",
+      "path": "deps/22.mjs",
+      "bytes": 11455,
+      "sha256": "B31EC28BD63A96DB13B75BA38871F8551F97D80DE3953EC231D6A6FABE4456BE",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/opencode-go.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-023",
+      "path": "deps/23.mjs",
+      "bytes": 147332,
+      "sha256": "CF79274DFF5481A59AB2C484A5869F6F2513F0809C273DECDA8A1DA2758213D1",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/openrouter.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-024",
+      "path": "deps/24.mjs",
+      "bytes": 8684,
+      "sha256": "AA8ACCAB18586D6D2AD8A54F27EDAFC4AF05F1A59E8386C871C937D1432633EA",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/qwen-token-plan.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-025",
+      "path": "deps/25.mjs",
+      "bytes": 8675,
+      "sha256": "7BC43D045D9F6F46909309FC24831FC1D1D2779FFAE5709961A5F274FAC8D574",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/qwen-token-plan-cn.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-026",
+      "path": "deps/26.mjs",
+      "bytes": 4933,
+      "sha256": "4CFA7E9E5917388F01E1DC1513C29E7D908787D4C44BEFF139F2353B3E3E5145",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/qwen-token-plan-individual.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-027",
+      "path": "deps/27.mjs",
+      "bytes": 11349,
+      "sha256": "DE7902074F624A66AB53A729811DA18B1CA8C6400D8599612E64A5E4A8F9471F",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/together.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-028",
+      "path": "deps/28.mjs",
+      "bytes": 71857,
+      "sha256": "C18922DF4D018923DB455213A12616799722767C05E6956B154F42E649B98A6A",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/vercel-ai-gateway.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-029",
+      "path": "deps/29.mjs",
+      "bytes": 1619,
+      "sha256": "9C140362D812492E5116C5ADDC65358029CB87DBFA8E6995D6F153261407D8BF",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/xai.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-030",
+      "path": "deps/30.mjs",
+      "bytes": 1593,
+      "sha256": "C96030047C7D949893A5CD48C618AD9A2B2E3CCFEACA7E8899EE4AD9A4A1D33F",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/xiaomi.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-031",
+      "path": "deps/31.mjs",
+      "bytes": 1290,
+      "sha256": "B2B80B8B91C383EA4CE28978C75AEA6A271343223F85F9B8520580E2BECBB464",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/xiaomi-token-plan-ams.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-032",
+      "path": "deps/32.mjs",
+      "bytes": 1283,
+      "sha256": "E139F8F4E3ED62DC4CC89E37381A229EFE38F601F0F4B333E71D79D1EEF3AD40",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/xiaomi-token-plan-cn.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-033",
+      "path": "deps/33.mjs",
+      "bytes": 1290,
+      "sha256": "D74B21CAC1346E4E136E0847DC944AD77CB59809E559413A38F6F112827D18EE",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/xiaomi-token-plan-sgp.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-034",
+      "path": "deps/34.mjs",
+      "bytes": 3796,
+      "sha256": "0FBC01B6F1762577742BB178191EC28A2188E82F917F270D51AC81C103A93540",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/zai.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-035",
+      "path": "deps/35.mjs",
+      "bytes": 5199,
+      "sha256": "79C860ADEDBD5A843BF558023BDFEE2547D2729037A162367F72F8FEE4521B4A",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/providers/zai-coding-cn.models/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-036",
+      "path": "deps/36.mjs",
+      "bytes": 2227,
+      "sha256": "762CBA6D7BDBD1B66A76A379FD3A837CECA9B0DD7093418559B5931DCC1A915F",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/api/openai-responses.lazy/+esm",
+      "tier": "direct",
+      "imports": [
+        {
+          "start": 2030,
+          "end": 2097,
+          "specifier": "/npm/@earendil-works/pi-ai@0.85.1/dist/api/openai-responses.js/+esm",
+          "dependency": 59
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-037",
+      "path": "deps/37.mjs",
+      "bytes": 2233,
+      "sha256": "95E22A162C9EBB53D76C824274724FEA877CA1B63477F15095E7E127562BFB48",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/api/openai-completions.lazy/+esm",
+      "tier": "direct",
+      "imports": [
+        {
+          "start": 2032,
+          "end": 2101,
+          "specifier": "/npm/@earendil-works/pi-ai@0.85.1/dist/api/openai-completions.js/+esm",
+          "dependency": 60
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-038",
+      "path": "deps/38.mjs",
+      "bytes": 2233,
+      "sha256": "AAFD5CEA67CA69C2182089E53A62B7CDED36EEE3799ED59008DE8703DA9A739D",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/api/anthropic-messages.lazy/+esm",
+      "tier": "direct",
+      "imports": [
+        {
+          "start": 2032,
+          "end": 2101,
+          "specifier": "/npm/@earendil-works/pi-ai@0.85.1/dist/api/anthropic-messages.js/+esm",
+          "dependency": 61
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-039",
+      "path": "deps/39.mjs",
+      "bytes": 2238,
+      "sha256": "29D14C89B19822DB1A122709BAA26EAD0F143B20C3F602D463DB702567C108BC",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/api/google-generative-ai.lazy/+esm",
+      "tier": "direct",
+      "imports": [
+        {
+          "start": 2034,
+          "end": 2105,
+          "specifier": "/npm/@earendil-works/pi-ai@0.85.1/dist/api/google-generative-ai.js/+esm",
+          "dependency": 62
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-040",
+      "path": "deps/40.mjs",
+      "bytes": 2242,
+      "sha256": "39179F1220EAD9BC70DF60DFAB9F8151639663281E0E37925AC8F7AF89AE6851",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/api/mistral-conversations.lazy/+esm",
+      "tier": "direct",
+      "imports": [
+        {
+          "start": 2035,
+          "end": 2107,
+          "specifier": "/npm/@earendil-works/pi-ai@0.85.1/dist/api/mistral-conversations.js/+esm",
+          "dependency": 63
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-041",
+      "path": "deps/41.mjs",
+      "bytes": 2244,
+      "sha256": "40325DF653471306A3ECB8C765717BE1166986A598FB345DBC0E8A17E43535D2",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/api/openai-codex-responses.lazy/+esm",
+      "tier": "direct",
+      "imports": [
+        {
+          "start": 2036,
+          "end": 2109,
+          "specifier": "/npm/@earendil-works/pi-ai@0.85.1/dist/api/openai-codex-responses.js/+esm",
+          "dependency": 64
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-042",
+      "path": "deps/42.mjs",
+      "bytes": 10846,
+      "sha256": "2949043669D824A62BB2CF6B85AE2C0D188A8C756F60A3E3805F91F1B8B1FCF4",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/api/google-shared/+esm",
+      "tier": "direct",
+      "imports": [
+        {
+          "start": 339,
+          "end": 369,
+          "specifier": "/npm/@google/genai@1.52.0/+esm",
+          "dependency": 65
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-043",
+      "path": "deps/43.mjs",
+      "bytes": 3510,
+      "sha256": "032B14EE605CA3F4A0892FD0486F2A0161E0AB5E5326C81E07280A6250EB3063",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/api/simple-options/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-044",
+      "path": "deps/44.mjs",
+      "bytes": 18677,
+      "sha256": "0920AF32BE2643FD1632A1889C71EA7FF725B7E5F6506AB994B26E2C81182D12",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@intlify/core-base@11.1.12/+esm",
+      "tier": "direct",
+      "imports": [
+        {
+          "start": 638,
+          "end": 671,
+          "specifier": "/npm/@intlify/shared@11.1.12/+esm",
+          "dependency": 45
+        },
+        {
+          "start": 788,
+          "end": 831,
+          "specifier": "/npm/@intlify/message-compiler@11.1.12/+esm",
+          "dependency": 66
+        },
+        {
+          "start": 894,
+          "end": 937,
+          "specifier": "/npm/@intlify/message-compiler@11.1.12/+esm",
+          "dependency": 66
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-045",
+      "path": "deps/45.mjs",
+      "bytes": 4112,
+      "sha256": "9FEE14020A030BAB718F2C6C53ED6CFDAA76266A1CCB89FBA320D5474BB054DC",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@intlify/shared@11.1.12/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-046",
+      "path": "deps/46.mjs",
+      "bytes": 7034,
+      "sha256": "A23AEB8E3F95FA549C8EFC9585D10A2A2435D628021F32FBB3A2560280D063B3",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/jsonrepair@3.13.2/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-047",
+      "path": "deps/47.mjs",
+      "bytes": 2470,
+      "sha256": "72ACA95E36FB70155E5F43546FE668C010FE82FD13E5A45D39427B26FED0A6F6",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/compare-versions@6.1.1/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-048",
+      "path": "deps/48.mjs",
+      "bytes": 27420,
+      "sha256": "39805A3D9701B8ED20E892CCF86223F928382AA17EDFC2361E6C5C76A473D3B2",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/json5@2.2.3/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-049",
+      "path": "deps/49.mjs",
+      "bytes": 1246,
+      "sha256": "E6BB95D703905B5D1EED18561BA26568159F383F4B1F7A351DE864C26CE8366B",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/klona@2.0.6/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-050",
+      "path": "deps/50.mjs",
+      "bytes": 923,
+      "sha256": "F923A32A70D33CCE2C8F8B7DC2EC113A27DC6DAEF8162EC2632DFF5B71B6F49B",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/perfect-debounce@1.0.0/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-051",
+      "path": "deps/51.mjs",
+      "bytes": 4353,
+      "sha256": "B360157AF84C21022BA4D017D64C4BCBFEE1BFB39EC627BB88563A3DC0304827",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/hookable@5.5.3/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-052",
+      "path": "deps/52.mjs",
+      "bytes": 3072,
+      "sha256": "ACF40E8C93205AA59EEA134220263E35070B808A1B2653A4B94410295C7C9BA0",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/birpc@2.6.1/+esm",
+      "tier": "direct",
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-053",
+      "path": "deps/53.mjs",
+      "bytes": 636181,
+      "sha256": "F1F594F06508B03A92AFFF6752C0E0158C86AEFE61E723451330DEE4296F0745",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/mathjs@12.4.3/+esm",
+      "tier": "direct",
+      "imports": [
+        {
+          "start": 269,
+          "end": 316,
+          "specifier": "/npm/@babel/runtime@7.24.6/helpers/extends/+esm",
+          "dependency": 67
+        },
+        {
+          "start": 333,
+          "end": 363,
+          "specifier": "/npm/typed-function@4.1.1/+esm",
+          "dependency": 68
+        },
+        {
+          "start": 380,
+          "end": 407,
+          "specifier": "/npm/decimal.js@10.4.3/+esm",
+          "dependency": 69
+        },
+        {
+          "start": 424,
+          "end": 450,
+          "specifier": "/npm/complex.js@2.1.1/+esm",
+          "dependency": 70
+        },
+        {
+          "start": 467,
+          "end": 494,
+          "specifier": "/npm/fraction.js@4.3.4/+esm",
+          "dependency": 71
+        },
+        {
+          "start": 511,
+          "end": 565,
+          "specifier": "/npm/@babel/runtime@7.24.6/helpers/defineProperty/+esm",
+          "dependency": 72
+        },
+        {
+          "start": 582,
+          "end": 621,
+          "specifier": "/npm/javascript-natural-sort@0.7.1/+esm",
+          "dependency": 73
+        },
+        {
+          "start": 638,
+          "end": 666,
+          "specifier": "/npm/escape-latex@1.2.0/+esm",
+          "dependency": 74
+        },
+        {
+          "start": 683,
+          "end": 709,
+          "specifier": "/npm/seedrandom@3.0.5/+esm",
+          "dependency": 75
+        },
+        {
+          "start": 726,
+          "end": 754,
+          "specifier": "/npm/tiny-emitter@2.1.0/+esm",
+          "dependency": 76
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-054",
+      "path": "transitive/054.mjs",
+      "bytes": 1601,
+      "sha256": "9164586D27D11BCD2328AD7303982FA9D621746599DCB8955C79CB32A9FEA403",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/p-retry@4.6.2/+esm",
+      "tier": 1,
+      "imports": [
+        {
+          "start": 263,
+          "end": 285,
+          "specifier": "/npm/retry@0.13.1/+esm",
+          "dependency": 77
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-055",
+      "path": "transitive/055.mjs",
+      "bytes": 76581,
+      "sha256": "68477E358C5DFE0279A8D160297259976715038BB65E66ADA8DCB5328D0320AA",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/typebox@1.3.7/+esm",
+      "tier": 1,
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-056",
+      "path": "transitive/056.mjs",
+      "bytes": 4690,
+      "sha256": "F7D1DCBDC45780FF1C525BDED427414E49604498EE9C509139E1FCA873413ABA",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/partial-json@0.1.7/+esm",
+      "tier": 1,
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-057",
+      "path": "transitive/057.mjs",
+      "bytes": 116260,
+      "sha256": "5466FD8853F6FF3BBA904124011B743230AC841B7CE5AF8E243EEBFA0573BB0B",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/typebox@1.3.7/compile/+esm",
+      "tier": 1,
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-058",
+      "path": "transitive/058.mjs",
+      "bytes": 105760,
+      "sha256": "8EC08C78BD8AF06E882AC1B2F2B5016B9633C8B9761FD6B0CE8F8DF3E22F4DB5",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/typebox@1.3.7/value/+esm",
+      "tier": 1,
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-059",
+      "path": "transitive/059.mjs",
+      "bytes": 36621,
+      "sha256": "B069180FD90DA30C57C45BB81E5922F876347495F6E6E1228C96B5E7CEA581B0",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/dist/api/openai-responses.js/+esm",
+      "tier": 1,
+      "imports": [
+        {
+          "start": 296,
+          "end": 319,
+          "specifier": "/npm/openai@6.40.0/+esm",
+          "dependency": 78
+        },
+        {
+          "start": 344,
+          "end": 372,
+          "specifier": "/npm/partial-json@0.1.7/+esm",
+          "dependency": 56
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-060",
+      "path": "transitive/060.mjs",
+      "bytes": 41707,
+      "sha256": "6E4CAE888AE6876DC2C23ACE8FF235FF7B2F6C65C8C42F9F3585116FF7811E3A",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/dist/api/openai-completions.js/+esm",
+      "tier": 1,
+      "imports": [
+        {
+          "start": 298,
+          "end": 321,
+          "specifier": "/npm/openai@6.40.0/+esm",
+          "dependency": 78
+        },
+        {
+          "start": 347,
+          "end": 375,
+          "specifier": "/npm/partial-json@0.1.7/+esm",
+          "dependency": 56
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-061",
+      "path": "transitive/061.mjs",
+      "bytes": 33880,
+      "sha256": "580F1AB83AF23DE57F4DE6E8FDD06E0E963EB7D7B2BC8F8B15672102A101BA56",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/dist/api/anthropic-messages.js/+esm",
+      "tier": 1,
+      "imports": [
+        {
+          "start": 297,
+          "end": 332,
+          "specifier": "/npm/@anthropic-ai/sdk@0.123.0/+esm",
+          "dependency": 79
+        },
+        {
+          "start": 357,
+          "end": 385,
+          "specifier": "/npm/partial-json@0.1.7/+esm",
+          "dependency": 56
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-062",
+      "path": "transitive/062.mjs",
+      "bytes": 25142,
+      "sha256": "CF65953625483839EBB5A2BE790A0AB5B03923F0BBCC14F75875D5943B99BDA2",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/dist/api/google-generative-ai.js/+esm",
+      "tier": 1,
+      "imports": [
+        {
+          "start": 364,
+          "end": 394,
+          "specifier": "/npm/@google/genai@1.52.0/+esm",
+          "dependency": 65
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-063",
+      "path": "transitive/063.mjs",
+      "bytes": 25296,
+      "sha256": "C2A399EB225DB194929E4F8CABA487080266AF0795466675F5B9B8B77ECBC8DE",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/dist/api/mistral-conversations.js/+esm",
+      "tier": 1,
+      "imports": [
+        {
+          "start": 309,
+          "end": 337,
+          "specifier": "/npm/partial-json@0.1.7/+esm",
+          "dependency": 56
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-064",
+      "path": "transitive/064.mjs",
+      "bytes": 52715,
+      "sha256": "3CFDF2E316D9647C040BF3D68E7263FEC72D151F7AAC42B8486C3169573A00B9",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/dist/api/openai-codex-responses.js/+esm",
+      "tier": 1,
+      "imports": [
+        {
+          "start": 311,
+          "end": 339,
+          "specifier": "/npm/partial-json@0.1.7/+esm",
+          "dependency": 56
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-065",
+      "path": "transitive/065.mjs",
+      "bytes": 285123,
+      "sha256": "1B7465799D8AF69154412E3F02B7E1167E8E71CB446DDD995CD757F9B2255BD7",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@google/genai@1.52.0/+esm",
+      "tier": 1,
+      "imports": [
+        {
+          "start": 296,
+          "end": 319,
+          "specifier": "/npm/p-retry@4.6.2/+esm",
+          "dependency": 54
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-066",
+      "path": "transitive/066.mjs",
+      "bytes": 18437,
+      "sha256": "B68FEC928B08A081D5A160323E9871363803B1871310958A5FA7399EE08B8C62",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@intlify/message-compiler@11.1.12/+esm",
+      "tier": 1,
+      "imports": [
+        {
+          "start": 333,
+          "end": 366,
+          "specifier": "/npm/@intlify/shared@11.1.12/+esm",
+          "dependency": 45
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-067",
+      "path": "transitive/067.mjs",
+      "bytes": 599,
+      "sha256": "471A0EC21934578AA9929B6FBAB143F0A4AF2EF5D1070EB97F8C1808DA031371",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@babel/runtime@7.24.6/helpers/extends/+esm",
+      "tier": 1,
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-068",
+      "path": "transitive/068.mjs",
+      "bytes": 17219,
+      "sha256": "121754AB2120B6E041B73B18AD827F33BF4110C3B997A515A9F19F20AFEE2E04",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/typed-function@4.1.1/+esm",
+      "tier": 1,
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-069",
+      "path": "transitive/069.mjs",
+      "bytes": 32662,
+      "sha256": "452453125985A6AA7C983445F5C6217E7FB73968BF5BF09158A068B0D0E30DAC",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/decimal.js@10.4.3/+esm",
+      "tier": 1,
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-070",
+      "path": "transitive/070.mjs",
+      "bytes": 9350,
+      "sha256": "1CA70DDC062BB6ADD3A6BEB46090F6AC401CC5289AC5DBECC57D9CD2547DC989",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/complex.js@2.1.1/+esm",
+      "tier": 1,
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-071",
+      "path": "transitive/071.mjs",
+      "bytes": 5979,
+      "sha256": "7EABD5208C43229CE6115DD7F18AC7CD1451A36CC1CE882DD0BDEC8AC37FE8A6",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/fraction.js@4.3.4/+esm",
+      "tier": 1,
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-072",
+      "path": "transitive/072.mjs",
+      "bytes": 1075,
+      "sha256": "CE679095838C0B59271FD8FD01F5F2F31C374480645B0962191397DE5A7E1ACF",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@babel/runtime@7.24.6/helpers/defineProperty/+esm",
+      "tier": 1,
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-073",
+      "path": "transitive/073.mjs",
+      "bytes": 1348,
+      "sha256": "17563FE20A023DBA96A92C40C757A1683CA18C4AFE5B845D7EAE77599BBB16E5",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/javascript-natural-sort@0.7.1/+esm",
+      "tier": 1,
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-074",
+      "path": "transitive/074.mjs",
+      "bytes": 1298,
+      "sha256": "2F53A679867F4AB8EAE49B93671BD7EF11E39027808A8AD4B2FEA783D3064EDA",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/escape-latex@1.2.0/+esm",
+      "tier": 1,
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-075",
+      "path": "transitive/075.mjs",
+      "bytes": 8267,
+      "sha256": "BFF06D8DBE428EFED7C3F061399890DE74B6AFDDAB70344E4B68A95055744D48",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/seedrandom@3.0.5/+esm",
+      "tier": 1,
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-076",
+      "path": "transitive/076.mjs",
+      "bytes": 1115,
+      "sha256": "0A23E30943430AD037B6B144F01D6FCB6FB38C8EFF8610DCFA1354E274F0C9AE",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/tiny-emitter@2.1.0/+esm",
+      "tier": 1,
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-077",
+      "path": "transitive/077.mjs",
+      "bytes": 4064,
+      "sha256": "C08B7E43AF5736B2BE45918F688966FA38362E21D04F2F59276CD5F9359D4542",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/retry@0.13.1/+esm",
+      "tier": 2,
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-078",
+      "path": "transitive/078.mjs",
+      "bytes": 156099,
+      "sha256": "E6F4CA808D3C1F015BDD3118DD91983ABE6835C31B4683D1B43577DA469D584D",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/openai@6.40.0/+esm",
+      "tier": 2,
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-079",
+      "path": "transitive/079.mjs",
+      "bytes": 176503,
+      "sha256": "767DB64E9772A1C5C7E72665B343058B594F1D7E95E9080D4BA375025F8F999F",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@anthropic-ai/sdk@0.123.0/+esm",
+      "tier": 2,
+      "imports": [
+        {
+          "start": 285,
+          "end": 317,
+          "specifier": "/npm/standardwebhooks@1.1.1/+esm",
+          "dependency": 80
+        },
+        {
+          "start": 18047,
+          "end": 18108,
+          "specifier": "/npm/@anthropic-ai/sdk@0.123.0/internal/node.browser.mjs/+esm",
+          "dependency": 81
+        },
+        {
+          "start": 18752,
+          "end": 18813,
+          "specifier": "/npm/@anthropic-ai/sdk@0.123.0/internal/node.browser.mjs/+esm",
+          "dependency": 81
+        },
+        {
+          "start": 23406,
+          "end": 23467,
+          "specifier": "/npm/@anthropic-ai/sdk@0.123.0/internal/node.browser.mjs/+esm",
+          "dependency": 81
+        },
+        {
+          "start": 25297,
+          "end": 25358,
+          "specifier": "/npm/@anthropic-ai/sdk@0.123.0/internal/node.browser.mjs/+esm",
+          "dependency": 81
+        },
+        {
+          "start": 25467,
+          "end": 25528,
+          "specifier": "/npm/@anthropic-ai/sdk@0.123.0/internal/node.browser.mjs/+esm",
+          "dependency": 81
+        },
+        {
+          "start": 26079,
+          "end": 26140,
+          "specifier": "/npm/@anthropic-ai/sdk@0.123.0/internal/node.browser.mjs/+esm",
+          "dependency": 81
+        },
+        {
+          "start": 26445,
+          "end": 26506,
+          "specifier": "/npm/@anthropic-ai/sdk@0.123.0/internal/node.browser.mjs/+esm",
+          "dependency": 81
+        },
+        {
+          "start": 28394,
+          "end": 28455,
+          "specifier": "/npm/@anthropic-ai/sdk@0.123.0/internal/node.browser.mjs/+esm",
+          "dependency": 81
+        },
+        {
+          "start": 32488,
+          "end": 32549,
+          "specifier": "/npm/@anthropic-ai/sdk@0.123.0/internal/node.browser.mjs/+esm",
+          "dependency": 81
+        },
+        {
+          "start": 76857,
+          "end": 76929,
+          "specifier": "/npm/@anthropic-ai/sdk@0.123.0/tools/agent-toolset/node.browser.mjs/+esm",
+          "dependency": 82
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-080",
+      "path": "transitive/080.mjs",
+      "bytes": 3167,
+      "sha256": "8DF7D63173E554A800B77FC99B9F6A11E1A82A7B35C58382367ADEDA1D084C25",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/standardwebhooks@1.1.1/+esm",
+      "tier": 3,
+      "imports": [
+        {
+          "start": 277,
+          "end": 310,
+          "specifier": "/npm/@stablelib/base64@1.0.1/+esm",
+          "dependency": 83
+        },
+        {
+          "start": 329,
+          "end": 356,
+          "specifier": "/npm/fast-sha256@1.3.0/+esm",
+          "dependency": 84
+        }
+      ]
+    },
+    {
+      "id": "mvu-dep-081",
+      "path": "transitive/081.mjs",
+      "bytes": 752,
+      "sha256": "F24E3AB98FD6D0AB0ADE14C8F5E9D89401EAD75B41A8348AC42F2BA4D4EA2AFF",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@anthropic-ai/sdk@0.123.0/internal/node.browser.mjs/+esm",
+      "tier": 3,
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-082",
+      "path": "transitive/082.mjs",
+      "bytes": 2142,
+      "sha256": "145A355D4C1A456097CF6B8C279E5A35E0A5D6BA8E1023D5DACECE52558FA8D5",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@anthropic-ai/sdk@0.123.0/tools/agent-toolset/node.browser.mjs/+esm",
+      "tier": 3,
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-083",
+      "path": "transitive/083.mjs",
+      "bytes": 4195,
+      "sha256": "F73196FFC4A79754831B6F54D27F902257B2AC8EB280786BAE6D8BE6057E20DC",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/@stablelib/base64@1.0.1/+esm",
+      "tier": 4,
+      "imports": []
+    },
+    {
+      "id": "mvu-dep-084",
+      "path": "transitive/084.mjs",
+      "bytes": 6698,
+      "sha256": "9433F59580A920B8B3EBD603B4F2C2B39FE132B0F9DBAB89367C85C5F65DB376",
+      "sourceUrl": "https://testingcf.jsdelivr.net/npm/fast-sha256@1.3.0/+esm",
+      "tier": 4,
+      "imports": []
+    }
+  ],
+  "audit": {
+    "directImportCount": 54,
+    "moduleCount": 85,
+    "staticRewriteCount": 105,
+    "unresolved": [],
+    "reviewedDynamicImports": [
+      {
+        "moduleId": "mvu-dep-001",
+        "sourceUrl": "https://testingcf.jsdelivr.net/npm/@earendil-works/pi-ai@0.85.1/+esm",
+        "moduleSha256": "AAF106C29929927A9DCF8B05B5F5710D88D65C8AF9C4B1D1E40F95189869605B",
+        "dynamicExpression": "const ie=t=>import(We(t))",
+        "callSites": [
+          "node:fs/promises",
+          "node:os"
+        ],
+        "enclosingMethod": "async fileExists(t){try{...}catch{return!1}}",
+        "classification": "NODE_BUILTIN_CAUGHT_BROWSER_UNREACHABLE",
+        "rationale": "Both observed call sites request Node built-ins and are inside fileExists try/catch; no runtime remote specifier is constructed or accepted."
+      }
+    ],
+    "graphUnresolved": [],
+    "graphCycles": [],
+    "traversalProblems": [],
+    "deploymentReady": true
+  }
+}
